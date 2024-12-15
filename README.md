@@ -150,6 +150,7 @@ function undo() {
 ```
 
 ## OUTPUT:
+    ![Ex-08](https://github.com/user-attachments/assets/cbbe2231-fa34-4837-a922-6d86e58a3e6e)
 
 
 
