@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Image gallery
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>
+        Image Gallery of Famous places in Tamilnadu .
+    </h1>
+    <div class="container">
+        <div class="gallery">
+            <img class="preview" src="chennai.png" alt="Chennai" onmouseover="update(this);" onmouseout="undo();">
+            <img class="preview" src="kanyakumari.png" alt="Kanyakumari" onmouseover="update(this);"
+                onmouseout="undo();">
+            <img class="preview" src="kodaikanal.png" alt="Kodaikanal" onmouseover="update(this);" onmouseout="undo();">
+            <img class="preview" src="thanjavur.png" alt="Thanjavur" onmouseover="update(this);" onmouseout="undo();">
+
+        </div>
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+    </div>
+</body>
+
+</html>
